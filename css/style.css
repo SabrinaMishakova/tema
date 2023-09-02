@@ -1,0 +1,487 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* шапка */
+header {
+    background-color: #E1EDE6;
+    font-weight: 500;
+}
+
+.container {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0px;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 143px;
+    height: 35px;
+}
+
+.menu {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    font-size: 20px;
+}
+
+.menu a {
+    color: black;
+}
+
+/* шапка */
+/* баннер */
+
+.banner {
+    width: 100%;
+    display: flex;
+
+
+}
+
+.banner-content {
+    display: flex;
+    gap: 30px;
+}
+
+.banner-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner-items p {
+    font-size: 60px;
+    color: #2C2D35;
+    margin-bottom: 20px;
+}
+
+.ink {
+    color: #598D66;
+}
+
+.text {
+    color: #86928B;
+    font-size: 18px;
+}
+
+.banner-items a {
+    color: #598D66;
+    font-size: 20px;
+    border: 1px solid #598D66;
+    padding: 20px 60px;
+    width: 220px;
+    margin-top: 60px;
+}
+
+/* баннер */
+/* репродукт */
+.reproduct-filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.reproduct-filter p {
+    font-size: 40px;
+    color: #2C2D35;
+
+}
+
+.btn {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.btn a {
+    color: #2C2D35;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: #D4E8D9;
+}
+
+.btn span {
+    background-color: #376B44;
+    color: #F4F6F5;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.reproduct-kart {
+    margin-top: 30px;
+    margin-bottom: 70px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.reprod {
+    background-color: #E1EDE6;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    padding: 20px;
+}
+
+.name {
+    font-size: 18px;
+    color: #86928B;
+    margin-top: 20px;
+}
+
+.kar {
+    font-size: 30px;
+    color: #2C2D35;
+    margin-top: 10px;
+}
+
+.about {
+    font-size: 18px;
+    color: #2C2D35;
+    margin-top: 10px;
+
+}
+
+.reprod span {
+    color: #598D66;
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+.reprod a {
+    font-size: 20px;
+    color: #598D66;
+    border: 1px solid #598D66;
+    padding: 20px 60px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* репродукт */
+/* коллекция */
+.collection-star {
+    display: flex;
+    align-items: center;
+    padding-top: 70px;
+    margin-bottom: 20px;
+}
+
+.collection-star p {
+    font-size: 40px;
+    color: #F4F6F5;
+}
+
+.collection-about {
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+}
+
+.collection-about p {
+    color: white;
+    font-size: 18px;
+    font-family: 'Raleway';
+    line-height: 28px;
+}
+
+.collection-about a {
+    color: #2C2D35;
+    font-size: 20px;
+    background-color: #EEDB6D;
+    padding: 20px 60px;
+    width: 257px;
+    margin-top: 40px;
+}
+
+.collection {
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.875), rgba(164, 52, 52, 0)), url(../img/newcollection/Rectangle.png) no-repeat;
+    background-size: cover;
+    padding: 0px 0px 50px 0px;
+    
+}
+
+/* коллекция */
+/* команда */
+.comanda-content {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.comanda {
+    width: 100%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.zagolovok {
+    font-size: 40px;
+    color: #2C2D35;
+    margin-bottom: 20px;
+}
+
+.zn {
+    font-size: 18px;
+    color: #2C2D35;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+
+.people {
+    display: flex;
+    gap: 30px;
+}
+
+.comanda-items {
+    margin-top: 70px;
+}
+
+/* команда */
+/* футер */
+footer {
+    background-color: #E1EDE6;
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 23px 0px;
+}
+
+.tel {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.tel p {
+    font-size: 20px;
+}
+
+.tel span {
+    color: #86928B;
+    font-size: 18px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.menu-footer {
+    display: flex;
+    gap: 58px;
+    margin-right: 120px;
+}
+
+.menu1 {
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+}
+
+.menu1 p {
+    font-size: 20px;
+}
+
+.menu1 span {
+    font-size: 18px;
+    color: #86928B;
+}
+
+.menu2 p {
+    font-size: 20px;
+}
+
+.menu2 span {
+    font-size: 18px;
+    color: #86928B;
+}
+
+.menu3 p {
+    font-size: 20px;
+}
+
+.menu3 span {
+    font-size: 18px;
+    color: #86928B;
+}
+
+.menu2 {
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+}
+
+.menu3 {
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+}
+
+.sot-img {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 10px;
+}
+
+.avtor {
+    font-size: 12px;
+    color: #86928B;
+    line-height: 20px;
+}
+
+/* футер */
+
+
+
+@media screen and (max-width: 320px) {
+
+    .container {
+        max-width: 270px;
+    }
+
+    .reproduct-kart {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .banner-content {
+        flex-direction: column-reverse;
+    }
+
+    .comanda-content {
+        flex-direction: column-reverse;
+    }
+
+    .footer {
+        flex-direction: column;
+
+    }
+
+    .menu-footer {
+        flex-direction: column;
+    }
+
+    .reproduct-filter {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .btn {
+        flex-direction: column;
+    }
+
+    .menu {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .header {
+        flex-direction: column;
+    }
+
+    .banner-items p {
+        font-size: 30px;
+    }
+
+    .banner-img {
+        width: 250px;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .reproduct-filter p {
+        font-size: 20px;
+    }
+
+    .btn {
+        font-size: 15px;
+        align-items: center;
+    }
+
+    .btn a {
+        width: 110px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .reprod {
+        width: 260px;
+    }
+
+    .kar{
+        font-size: 18px;
+    }
+
+    .collection-star p{
+        font-size: 20px;
+    }
+
+    .comanda-img{
+        width: 200px;
+    }
+
+    .zagolovok{
+        font-size: 20px;
+    }
+
+    .zn{
+        font-size: 15px;
+    }
+
+    .people{
+        gap: 20px;
+    }
+
+    .comanda{
+        margin-top: 0px;
+    }
+
+    .sotset{
+        margin-top: 20px;
+    }
+
+    .menu-footer{
+        gap: 20px;
+    }
+
+    .sot-img{
+        gap: 15px;
+    }
+
+    .footer-content img{
+        width: 200px;
+    }
+
+    .banner-items{
+        gap: 10px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .banner-items a{
+        margin: 10px auto;
+    }
+}
